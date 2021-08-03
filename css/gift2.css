@@ -1,0 +1,101 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  background: #ececec;
+}
+.top,
+.bottom  {
+  background: #fff;
+  color: #000;
+}
+.bottom {
+  padding: 0 0.8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  box-sizing: border-box;
+}
+.menu_info {
+  padding: 1.5rem 1.8rem 4rem;
+}
+.menu_info img {
+  display: block;
+  width: 12rem;
+  margin: 0 auto;;
+}
+.menu_info strong {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.2rem;
+  padding: 1.5rem 0 1.1rem;
+}
+.menu_info p {
+  font-size: 1.1rem;
+}
+.price {
+  height: 4.6rem;
+  border-bottom: 1px solid #ccc;
+}
+.price > div {
+  position: relative;
+  margin: 0 1.8rem;
+}
+.price .summoney {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.price .updown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  font-size: 0;
+}
+.price .updown span i {
+  font-size: 2.3rem;
+}
+.orderform .p_num {
+  width: 5.2rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  vertical-align: top;
+}
+.basketdiv .sum {
+  display: none !important;
+}
+.summoney{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.bottom > div {
+  padding: 1rem 0;
+  font-size: 0;
+}
+.bottom button {
+  width: 47%;
+  display: inline-block;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 0.7rem;
+  text-align: center;
+}
+.bottom .tome {
+  background: #fff;
+  color: #000;
+}
+.bottom .toyou {
+  background: #000;
+  color: #fff;
+  margin: 0 0 0 6%;
+}
+

@@ -1,0 +1,102 @@
+section {
+  background-color: #fff;
+}
+.tabs {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  padding: 0 0 0 1.8rem;
+}
+.tabs, .tabs2 {
+  line-height: 4rem;
+}
+.t-menu.left {
+  margin: 0 2.7rem 0 0;
+}
+.t-menu {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+}
+.t-menu.current {
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+}
+.t-menu-content  {
+  display: none;
+}
+.t-menu-content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.t-menu-content.current {
+  display: block;
+}
+.event,
+.notice {
+  margin: 0.8rem 0 0 0;
+}
+.event .info {
+  width: 100%;
+  border-bottom: 7px solid #ececec;
+}
+.notice .info {
+  border-bottom: 1px solid #ccc;
+  padding: 2.1rem 1.5rem;
+}
+.event .info a {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.event .info a img {
+  width: 100%;
+}
+.event .info .txt {
+  padding: 2rem 1.8rem;
+}
+.event .info .txt span {
+  display: block;
+  font-size: 1.1rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center; 
+  border-radius: 0.3rem;
+  margin: 0 0 1.2rem;
+}
+.event .info .ing {
+  width: 3.7rem;
+  background: #f8bd00;
+  color: #fff;
+}
+.event .info .end {
+  width: 2.7rem;
+  border: 1px solid #666;
+  color: #666;
+}
+.event .info strong,
+.notice .info strong {
+  display: block;
+  line-height: 1;
+  font-size: 1.3rem;
+  margin: 0 0 1.5rem;
+}
+.event .info p,
+.notice .info p {
+  line-height: 1;
+  font-size: 1rem;
+}
+.more {
+  display: block;
+  margin: 1.7rem 1.7rem;
+  width: calc(100% - 3.4rem);
+  box-sizing: border-box;
+  text-align: center;
+  height: 3.3rem;
+  line-height: 3.3rem;
+  color: #666;
+  border: 1px solid #666;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,35 @@
+html {font-size: 10px;}
+body {font-size: 1rem;}
+
+/* header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  background: #fff;
+  z-index: 9999;
+}
+header h1 {
+  padding: 1.9rem 0;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+  font-size: 1.2rem;
+  color: #000;
+}
+header .back {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 2.4rem;
+  height: 5rem;
+  background: url(../images/ico_back.png) no-repeat center / 0.8rem auto;
+  cursor: pointer;
+}
+main {
+  margin: 5rem 0 0;
+}

@@ -1,0 +1,149 @@
+body {
+  background: #ececec;
+}
+main > section {
+  background: #fff;
+}
+section .agree,
+section .password,
+section .logout {
+  border-top: 6px solid #ececec;
+}
+section .nick,
+section .terms,
+section .password {
+  border-bottom: 1px solid #ccc;
+}
+section .terms {
+  border-top: 1px solid #eee;
+}
+section .logout {
+  border-bottom: 1px solid #eee;
+}
+section .nick > a,
+section .agree ~ div > a {
+  position: relative;
+  padding: 0 1.8rem;
+  font-size: 1.2rem;
+  display: block;
+  line-height: 4.6rem;
+  font-weight: bold;
+}
+section .nick span,
+section .agree ~ div span {
+  position: absolute;
+  display: block;
+  right: 1.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.7rem;
+  height: 1.3rem;
+  background: url(../images/ico_arrow_right.png) no-repeat center;
+  z-index: 5000;
+  font-size: 0;
+}
+section .agree {
+  padding: 0 1.8rem;
+  position: relative;
+}
+section .agree strong {
+  display: block;
+  line-height: 1;
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  color: #000;
+}
+section .agree > span {
+  display: block;
+  line-height: 1;
+  padding: 0 0 2.5rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.switch1,
+.switch2 {
+  position: absolute;
+  right: 2.5rem;
+  width: 6rem;
+  height: 2.4rem;
+}
+.switch1 {
+  top: 4.5rem;
+}
+.switch2 {
+  top: 7.8rem;
+}
+.switch1 + p,
+.switch1 + p + p,
+.switch2 + p,
+.switch2 + p + p {
+  position: absolute;
+  color: #fff;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.switch1 + p,
+.switch2 + p {
+  right: 3.6rem;
+}
+.switch1 + p + p,
+.switch2 + p + p {
+  right: 5.6rem;
+}
+.switch1 + p,
+.switch1 + p + p {
+  top: 4.8rem;
+}
+.switch2 + p,
+.switch2 + p + p {
+  top: 8.1rem;
+}
+
+/* Hide default HTML checkbox */
+.switch1 input,
+.switch2 input {
+  display:none;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  width: 1.8rem;
+  height: 1.8rem;
+  left: 0.2rem;
+  top: 0.3rem;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.switch1 input:checked + .slider,
+.switch2 input:checked + .slider {
+  background-color: #000;
+}
+.switch1 input:checked + .slider:before,
+.switch2 input:checked + .slider:before {
+  -webkit-transform: translateX(3.8rem);
+  -ms-transform: translateX(3.8rem);
+  transform: translateX(3.8rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 1.2rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

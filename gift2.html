@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mega coffee</title>
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <link rel="stylesheet" href="css/gift2.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/gift2.js"></script>
+</head>
+<body>
+  <header>
+    <h1>메뉴상세</h1>
+    <a href="gift.html" class="back">
+      <span class="hide">뒤로</span>
+    </a>
+  </header>
+  <main>
+    <section class="top">
+      <div class="menu_info">
+        <img src="images/best1.jpg" alt="오션스무디">
+        <strong>오션스무디</strong>
+        <p>푸르른 바다 속에 들어가 있는 시원함을 느낄 수 있는 스무디와 딸기 리치워터젤리가 만나 죠스바맛을 연상하게 하며 스프링클 캔디까지 더해져 톡톡 씹히는 즐거움까지 있는 음료</p>
+      </div>
+      <div class="price">
+        <div>
+          <form name="orderform" id="orderform" method="post" class="orderform" action="/Page">
+            <input type="hidden" name="cmd" value="order">
+            <div class="basketdiv" id="basket">
+              <div class="row data">
+                <div class="subdiv">
+                  <div class="basketprice hide">
+                    <input type="hidden" name="p_price" id="p_price1" class="p_price" value="4200">4,200원
+                  </div>
+                  <div class="num">
+                    <div class="updown">
+                      <span onclick="javascript:basket.changePNum(1);">
+                        <i class="fa fa-minus-square"></i>
+                      </span>
+                      <input type="text" name="p_num1" id="p_num1" size="2" maxlength="4" class="p_num" value="1" onkeyup="javascript:basket.changePNum(1);">
+                      <span onclick="javascript:basket.changePNum(1);">
+                        <i class="fa fa-plus-square"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="sum">4,200원</div>
+                </div>
+              </div>
+            </div>
+            <div class="sumcount hide" id="sum_p_num">상품개수: 1개</div>
+            <div class="box summoney" id="sum_p_price">4,200원</div>
+    
+            
+          </form>
+        </div>
+      </div>
+    </section>  
+    <section class="bottom">
+      <div>
+        <button class="tome">나에게 선물하기</button>
+        <button class="toyou">선물하기</button>
+      </div>
+    </section>  
+  </main>
+</body>
+</html>

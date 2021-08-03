@@ -1,0 +1,60 @@
+html {font-size: 10px;}
+body {font-size: 1rem;}
+
+.top {
+  padding: 0 8.1rem;
+  position: relative;
+}
+.top > div {
+  padding: 17.5rem 0 0;
+}
+.top > div img {
+  width: 100%;
+}
+.bottom {
+  padding: 0 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.bottom div a {
+  display: block;
+  width: 100%;
+  height: 4.8rem;
+  line-height: 4.8rem;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.bottom .kakao {
+  position: relative;
+  background: #ffeb00;
+  margin-bottom: 0.8rem;
+}
+.bottom .kakao:before,
+.bottom .kakao:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+.bottom .kakao:before {
+  width: 2.1rem;
+  height: 1.9rem;
+  left: 2.3rem;
+  top: 1.4rem;
+  background: url(../images/ico_kakao.png) no-repeat center / 100% auto;
+}
+.bottom .kakao:after {
+  width: 0.2rem;
+  height: 1.6rem;
+  left: 6.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #5c5522;
+}
+.bottom .mega {
+  margin-bottom: 0.8rem;
+}

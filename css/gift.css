@@ -1,0 +1,236 @@
+section {
+  background-color: #fff;
+}
+.tabs {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  padding: 0 0 0 1.8rem;
+}
+.tabs, .tabs2 {
+  line-height: 4rem;
+}
+.t-menu.left {
+  margin: 0 2.7rem 0 0;
+}
+.t-menu {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+}
+.t-menu.current {
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+}
+.t-menu-content,
+.t-menu2-content,
+.t-menu3-content {
+  display: none;
+}
+.t-menu-content:after,
+.t-menu2-content:after,
+.t-menu3-content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.t-menu-content.current,
+.t-menu2-content.current,
+.t-menu3-content.current {
+  display: block;
+}
+
+.best {
+  padding: 0 0 2.4rem 1.8rem;
+}
+.best > p {
+  padding: 2.3rem 0 1.1rem 0;
+  line-height: 1;
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: bold;
+}
+.slide1 .swiper-slide a {
+  display: block;
+  width: 11rem;
+  padding: 0 0 2.5rem;
+  border: 1px solid #eee;
+  border-radius: 0.6rem;
+}
+.slide1 .swiper-slide img {
+  display: block;
+  width: 80%;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+.slide1 .swiper-slide p {
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  margin: 0 0 0.8rem;
+  line-height: 1;
+}
+.slide1 .swiper-slide a p:nth-of-type(2) {
+  font-weight: bold;
+}
+.slide1 .swiper-slide a p:nth-of-type(3) {
+  margin: 0 auto;
+  width: 3rem;
+  line-height: 1.6rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+.slide1 .swiper-slide .click {
+  border: 1px solid #f8bd00;
+  color: #f8bd00;
+}
+.slide1 .swiper-slide .new {
+  border: 1px solid crimson;
+  color: crimson;
+}
+.slide2 {
+  padding-left: 1.8rem;
+  border-bottom: 1px solid #ccc;
+}
+.slide2 .swiper-slide {
+  width: auto;
+  min-width: 4.4rem;
+  text-align: center;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 1.4rem 0 0;
+  color: #000;
+  font-size: 1.2rem;
+}
+.t-menu2.current {
+  border-bottom: 4px solid #000;
+  box-sizing: border-box;
+}
+.gift > p {
+  line-height: 1;
+  font-size: 1.1rem;
+  padding: 1.8rem 0 1.8rem;
+}
+.gift ul li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.gift ul li a {
+  display: block;
+  height: 18rem;
+}
+.gift ul li img {
+  width: 80%;
+}
+.gift ul li p {
+  font-size: 1rem;
+}
+.gift ul li p:nth-of-type(2) {
+  font-weight: bold;
+}
+.t-menu2-content {
+  padding: 0 1.8rem;
+}
+.gift a p:nth-of-type(2) {
+  font-weight: bold;
+}
+.gift a span {
+  display: block;
+  width: 3.2rem;
+  height: 1.6rem;
+  text-align: center;
+  color: crimson;
+  margin: 0.7rem auto 0 auto;
+  background: #fff;
+  border: 1px solid crimson;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+.tabs3 {
+  box-sizing: border-box;
+  height: 4.3rem;
+  padding: 0 0 0 1.8rem;
+  font-weight: bold;
+  margin: 0 0 1.7rem;
+}
+.t-menu3 {
+  padding: 1.9rem 0 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  float: left;
+  font-size: 1.1rem;
+  color: #000;
+}
+.tabs3 div ~ div {
+  margin: 0 0 0 3rem;
+}
+.t-menu3.current {
+  border-bottom: 2px solid #000;
+  box-sizing: border-box;
+}
+.t-menu3-content {
+  background: #ececec;
+  height: 100vh;
+}
+.give,
+.receive {
+  background: #fff;
+  padding: 0 1.8rem 1.7rem;
+}
+.give > div,
+.receive > div {
+  background: #fff;
+  height: 9rem;
+  box-shadow: 0rem 0.1rem 0.5rem 0.2rem rgba(200,200,200,0.9);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  clear: both;
+}
+.give .left,
+.receive .left {
+  width: 8.3rem;
+  float: left;
+}
+.give .right,
+.receive .right {
+  float: left;
+  border-left: 2px dotted #eee;
+}
+.give .left a,
+.receive .left a,
+.give .right a,
+.receive .right a {
+  display: block;
+  height: 9rem;
+  position: relative;
+}
+.give .left a img,
+.receive .left a img {
+  display: block;
+  width: 80%;
+  line-height: 9rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.give .right a p,
+.receive .right a p {
+  line-height: 1;
+  padding: 0 0 1.2rem 1.3rem;
+  font-size: 1rem;
+}
+.give .right a p:first-child,
+.receive .right a p:first-child {
+  padding-top: 1.7rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

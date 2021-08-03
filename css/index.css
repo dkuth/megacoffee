@@ -1,0 +1,341 @@
+html {font-size: 10px;}
+body {font-size: 1rem;}
+
+/* header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  background: #f8bd01;
+  z-index: 999;
+}
+header h1 {
+  padding: 1.7rem 0;
+  margin: 0 auto;
+  width: 11.6rem;
+  height: 1.6rem;
+  background: url(../images/logo.png) no-repeat center / 100% auto;
+}
+header .menu {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 3.2rem;
+  height: 5rem;
+  background: url(../images/menu.png) no-repeat center / 1.4rem auto;
+}
+main {
+  margin: 5rem 0 0;
+}
+/* membership */
+.membership > div {
+  padding: 0 1.8rem 0 1.5rem;
+}
+.membership .left {
+  float: left;
+  display: block;
+  width: 7.9rem;
+  height: 7.9rem;
+}
+.membership .left em {
+  display: inline-block;
+  width: 3.5rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  background: #f8bd01;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2.2rem 0 0;
+}
+.membership .left span {
+  padding: 0 0 0 1rem;
+  font-size: 1.3rem;
+}
+.membership .left span i {
+  font-size: 1.6rem;
+  color: #f8bd01;
+  font-style: normal;
+  font-weight: bold;
+}
+.membership .left p {
+  position: relative;
+  line-height: 1;
+  padding: 1.2rem 0 0 1.8rem;
+  font-size: 1rem;
+  color: #989898;
+}
+.membership .left p:before {
+  position: absolute;
+  content: "";
+  background: url(../images/ico_coupon.png) no-repeat center / 1rem auto;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  left: 0.3rem;
+  top: 1.1rem;
+}
+.membership .right {
+  float: right;
+  display: block;
+  width: 14rem;
+  height: 7.9rem;
+}
+.membership .right div {
+  position: relative;
+  margin: 1.2rem 0 0;
+  padding: 0.5rem 0 0;
+  box-sizing: border-box;
+  height: 4.6rem;
+  box-shadow: 0rem 0.1rem 0.5rem 0.2rem rgba(200,200,200,0.9);
+  border-radius: 0.4rem;
+}
+.membership .right div:after {
+  position: absolute;
+  bottom: -0.65rem;
+  right: -0.65rem;
+  content:"";
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  box-shadow: 0rem 0.1rem 0.5rem 0.2rem rgba(216,216,216,0.9);
+  background: url(../images/ico_wide.png) no-repeat center / 0.7rem auto #fff;
+}
+.membership .right img {
+  width: 11rem;
+  display: block;
+  margin: 0 auto;
+}
+.membership .right p {
+  text-align: center;
+  padding: 0.4rem 0 0;
+  color: #9e9e9e;
+  font-size: 0.7rem;
+}
+
+/* visual */
+.slide1 img {
+  width: 100%;
+}
+
+/* service */
+.service > nav {
+  padding: 1.8rem 2.2rem 0;
+}
+.service ul li {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+  border-right: 1px solid #ebebeb;
+}
+.service ul li:nth-child(1),
+.service ul li:nth-child(2),
+.service ul li:nth-child(3) {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.service ul li:nth-child(3),
+.service ul li:nth-child(6) {
+  border-right: none;
+}
+.service ul li a {
+  display: block;
+  font-size: 1.1rem;
+  color: #9d9d9d;
+  height: 7rem;
+  line-height: 10rem;
+  text-align: center;
+  position: relative;
+}
+.service ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.6rem;
+  left: 50%;
+  width: 3.4rem;
+  height: 3.4rem;
+  transform: translateX(-50%);
+  background: no-repeat center;
+}
+.service ul li:nth-child(1) a:before {
+  background-image: url(../images/service1.png);
+} 
+.service ul li:nth-child(2) a:before {
+  background-image: url(../images/service2.png);
+} 
+.service ul li:nth-child(3) a:before {
+  background-image: url(../images/service3.png);
+} 
+.service ul li:nth-child(4) a:before {
+  background-image: url(../images/service4.png);
+} 
+.service ul li:nth-child(5) a:before {
+  background-image: url(../images/service5.png);
+} 
+.service ul li:nth-child(6) a:before {
+  background-image: url(../images/service6.png);
+}
+
+/* notice */
+.notice > div {
+  margin: 1.8rem 2.2rem;
+  box-sizing: border-box;
+  border-radius: 2rem;
+  background: #f8bd01;
+}
+.notice span {
+  float: left;
+  padding: 0 0 0 1.2rem;
+  line-height: 4rem;
+  font-size: 1.2rem;
+  color: #eee;
+}
+.notice .slide2 {
+  float: left;
+  padding: 0 0 0 1.5rem;
+  overflow: hidden;
+  height: 4rem;
+  line-height: 4rem;
+}
+.notice .slide2 .swiper-slide {
+  height: 4rem;
+}
+.notice .slide2 .swiper-slide a {
+  display: block;
+  position: relative;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+/* barcode.html */
+.modal {
+  background: #fff;
+}
+.modal_logo {
+  width: 40%;
+  margin: 0 auto;
+}
+.modal_barcode {
+  width: 70%;
+  margin: 0 auto;
+}
+.modal_logo img {
+  display: block;
+  width: 100%;
+  padding: 4.4rem 0 1.6rem;
+}
+.modal_barcode img {
+  display: block;
+  width: 100%;
+  padding: 2.8rem 0 3rem;
+}
+.modal p {
+  font-size: 1rem;
+  color: #4d4d4d;
+  text-align: center;
+  line-height: 1;
+}
+
+/* gnb */
+.gnb {
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.5s;
+  z-index: 9998;
+}
+.gnb.active {
+  left: 0;
+}
+.gnb > div {
+  width: 27rem;
+  background-color: #f8bd01;
+  height: 100vh;
+}
+.gnb button {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  float: right;
+  padding: 1.5rem 1.3rem;
+  margin-bottom: 0.8rem;
+  background: url(../images/ico_close.png) no-repeat left bottom;
+}
+.gnb.active {
+  left: 0;
+}
+.gnb.active body {
+  background: rgba(0,0,0,0.8);
+}
+.gnb .info,
+.gnb_membership,
+.gnb nav {
+  margin: 0 1.3rem;
+}
+.gnb .info p {
+  color: #161511;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.gnb .info p span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.gnb .info a {
+  display: block;
+  color: #7b4f00;
+  padding: 1.2rem 0;
+}
+.gnb_membership {
+  font-size: 0;
+  background: #fbce3f;
+  border-radius: 0.7rem;
+}
+.gnb_membership a {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+.gnb_membership a ~ a:before {
+  content:"";
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 1.8rem;
+  background: #e2b534;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gnb_membership a p {
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 1.4rem 0 0;
+  color: #161511;
+}
+.gnb_membership a span {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 0.9rem 0 ;
+  color: #7b4f00;
+}
+.gnb nav ul li a {
+  display: block;
+  font-size: 1rem;
+  line-height: 3.6rem;
+  color: #281400;
+  border-bottom: 1px solid #f3b700;
+  font-weight: bold;
+}

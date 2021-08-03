@@ -1,0 +1,52 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.qna {
+  color: #000;
+}
+.qna dt {
+  margin: 0 1.5rem;
+  font-size: 1.3rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom:1px solid #ccc;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+}
+.qna dd {
+  margin: 0 1.5rem;
+  display:none;
+}
+.qna .answer {
+  display:none;
+}
+.qna .que > li {
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 1rem 0 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.qna .answer li {
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+  margin: 1rem 0 0;
+  font-size: 1.1rem;
+  background: #ececec;
+}
+.qna .answer {
+  text-align: justify;
+}
+.fa {
+  padding: 0 1rem 0 0;
+}
+.fa-question-circle {
+  color: #f8bd01;
+  font-size: 1.5rem;
+}
+.fa-check-circle {
+  font-size: 1.2rem;
+  color: #000;
+}
+.qna dl dd.on {display:block;}
+.qna .que > li.on {padding-bottom: 0;}
+.qna .que li ul.on{display:block}
